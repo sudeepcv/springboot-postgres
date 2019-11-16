@@ -2,9 +2,10 @@ language: java
 jdk: openjdk8
 script: mvn package -DskipTests
 deploy:
+  app: springboot-postgres-sudeep
   provider: heroku
   api_key:
     secure: kQ7sfdyyJFP5BEH2HGCbnlNDowtX7LmAIxBsq4M+XMG4F2M2JZU0CVrRg06evgzBjDzf30ebiUOq1JRy+iaWGnqz/ChzlofbOfpwd3vo43Wbt1xtOujeyn0d9TXRVZWIZMQ7LQO28nd0M6QWTEk0Seh7SBa5P43zi7TtBGM27zIuMZooGJHcOdqDVj/VNZq8afoNvgfTI0bN9TyQSN4QGhFBpVzmbxxxBHAIqZnNkXpJnFC2GZ8dTQU96k+wRWZNPcIWsQlIDjo63auxU5H39hFMkiStEC115nTWBSpgEqPlIGSh1ubOyAdaHFtBreAuPnJ+NkmZf7AGhtlNAmAYZ9CLNcMDuDpcMp4Sv3FaHBxQQthBZWzd2ZhHy9FvNGbJ2cueuoM/Oqo6yKNvCutY11Q5YXq8rxQwbEs7bu2sipWmOvOwoYF6a9UbyfAPYj57iwT57lE2m8Auegv3FzR/OGeWRzzVeM+nuzbYv+SmN3KHgibz6VSRGNKLgzuXoU6+DhbvrS7/KiA+PUWA7CTZIrLukGBBR8FFvUP9FUcUsr7PS6f0uRnczJQsU0xo/XFOKpHRroI0xzM/IWQjFUHF2U62K7mNVP7eI08PLOkzwlkrff0evxbcXeP1SPAFikwQDtkAlzbgOUyldz5oflKHDiX6vJOAHzPA1CYPDZnRhVA=
-  app: springboot-postgres-sudeep
+
   on:
     repo: sudeepcv/springboot-postgres
