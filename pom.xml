@@ -8,9 +8,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.basicsinjava</groupId>
-    <artifactId>springboot-postgres</artifactId>
+    <artifactId>springboot-postgres-sudeep</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-postgres</name>
+    <name>springboot-postgres-sudeep</name>
     <description>Demo project for Spring Boot</description>
 
 
