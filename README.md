@@ -1,6 +1,4 @@
-# Springboot-Postgres Skeleton[ gitpod - travis ci - heroku ] [![Build Status](https://travis-ci.org/sudeepcv/springboot-postgres.svg?branch=master)](https://travis-ci.org/sudeepcv/springboot-postgres)
-
-
+# Springboot-Postgres Skeleton[ gitpod - travis ci - heroku ] [ gitpod - travis ci - heroku skeleton] [![Build Status](https://travis-ci.org/sudeepcv/springboot-postgres.svg?branch=master)](https://travis-ci.org/sudeepcv/springboot-postgres)
 ### Features
 
 - Spring boot postgres skeleton
@@ -13,12 +11,14 @@ https://springboot-postgres-sudeep.herokuapp.com/
 
 
 
-####Gitpod IDE Configuration
+#### Gitpod IDE Configuration
 
 ------------
 
 In order to open this repository in git pod ide:
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/<org>/<repo>)
+
 To run the spring boot application:
 
 `./mvnw spring-boot:run`
@@ -45,7 +45,7 @@ To check postgress Status:
 pg_ctl: server is running (PID: 1758)
 
 
-##Travis-ci configuration
+## Travis-ci configuration
 
 
 ```json
@@ -69,7 +69,7 @@ To skip the test i have added :
 
 `  script: mvn package -DskipTests`
 
-###Heroku Configuration
+## Heroku Configuration
 
 ------------
 
