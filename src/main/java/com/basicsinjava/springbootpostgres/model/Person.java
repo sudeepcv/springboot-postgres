@@ -1,14 +1,14 @@
-// package com.basicsinjava.springbootpostgres.model;
+package com.basicsinjava.springbootpostgres.model;
 
-// import javax.persistence.Entity;
-// import javax.persistence.GeneratedValue;
-// import javax.persistence.Id;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
-// @Entity
-// public class Person{
-//     @Id
-//     @GeneratedValue
-//     Long id;
-//     String name;
+@Entity
+public class Person{
+    @Id
+    @GeneratedValue
+    Long id;
+    String name;
 
-// }
+}
