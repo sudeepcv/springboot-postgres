@@ -1,4 +1,6 @@
-#Springboot-Postgres Skeleton[ gitpod - travis ci - heroku ] [ gitpod - travis ci - heroku skeleton] [![Build Status](https://travis-ci.org/sudeepcv/springboot-postgres.svg?branch=master)](https://travis-ci.org/sudeepcv/springboot-postgres)
+# Springboot-Postgres Skeleton[ gitpod - travis ci - heroku ] [![Build Status](https://travis-ci.org/sudeepcv/springboot-postgres.svg?branch=master)](https://travis-ci.org/sudeepcv/springboot-postgres)
+
+
 ### Features
 
 - Spring boot postgres skeleton
