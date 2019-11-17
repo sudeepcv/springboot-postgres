@@ -5,10 +5,27 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Person{
+public class Person {
     @Id
     @GeneratedValue
-    Long id;
-    String name;
+    private Long id;
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }
