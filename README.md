@@ -44,6 +44,12 @@ To check postgress Status:
 
 pg_ctl: server is running (PID: 1758)
 
+To use dev profile you must provide :
+
+spring.profiles.active=prod
+
+in the application.properties file
+
 
 ## Travis-ci configuration
 
