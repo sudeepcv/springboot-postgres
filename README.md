@@ -17,7 +17,7 @@ https://springboot-postgres-sudeep.herokuapp.com/
 
 In order to open this repository in git pod ide:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/sudeepcv/springboot-postgres)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sudeepcv/springboot-postgres)
 
 To run the spring boot application:
 
@@ -48,7 +48,7 @@ To use dev profile you must provide :
 
 spring.profiles.active=prod
 
-in the application.properties file
+in the application.properties
 
 
 ## Travis-ci configuration
