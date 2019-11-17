@@ -17,7 +17,7 @@ https://springboot-postgres-sudeep.herokuapp.com/
 
 In order to open this repository in git pod ide:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/<org>/<repo>)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/sudeepcv/springboot-postgres)
 
 To run the spring boot application:
 
