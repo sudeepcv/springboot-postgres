@@ -3,7 +3,7 @@
 
 - Spring boot postgres skeleton
 - Heroku travis-ci configuration
--  Gitpod IED [image: gitpod/workspace-postgres]
+-  Gitpod IDE [image: gitpod/workspace-postgres]
 -   The site is up run running at : 
 https://springboot-postgres-sudeep.herokuapp.com/
 
